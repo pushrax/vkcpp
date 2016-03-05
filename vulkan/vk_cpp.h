@@ -57,6 +57,11 @@ namespace vk
       , m_error(result)
     {}
 
+    Result result()
+    {
+      return m_error;
+    }
+
   private:
     Result m_error;
   };
